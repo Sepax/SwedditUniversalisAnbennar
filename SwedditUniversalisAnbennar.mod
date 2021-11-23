@@ -9,4 +9,5 @@ tags={
 	"Gameplay"
 }
 name="Sweddit Universalis Anbennar"
+path="mod/SwedditUniversalisAnbennar"
 supported_version="1.32.*"
