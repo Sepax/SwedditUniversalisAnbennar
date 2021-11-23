@@ -9,4 +9,4 @@ tags={
 	"Gameplay"
 }
 name="Sweddit Universalis Anbennar"
-supported_version="1.31.6"
+supported_version="1.32.*"
