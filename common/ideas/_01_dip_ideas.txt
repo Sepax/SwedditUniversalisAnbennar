@@ -155,7 +155,7 @@ influence_ideas = {
 	}
 	integrated_elites = {
 		accept_vassalization_reasons = 5
-		diplomatic_annexation_cost = -0.15
+		diplomatic_annexation_cost = -0.25
 	}
 	state_propaganda = {
 		ae_impact = -0.15
@@ -164,7 +164,7 @@ influence_ideas = {
 		diplomatic_reputation = 2
 	}
 	postal_service = {
-		diplomatic_upkeep = 2
+		diplomats = 2
 	}
 	marcher_lords = {
 		land_forcelimit_modifier = 0.075
@@ -874,7 +874,7 @@ assimilation0 = {
 		culture_conversion_cost = -0.25
 	}
 	assimilation2 = {
-		diplomatic_annexation_cost = -0.25
+		diplomatic_annexation_cost = -0.15
 	}
 	
 	assimilation6 = {
