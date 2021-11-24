@@ -1,5 +1,5 @@
 # Sweddit Universalis Anbennar
 Modification of Europa Universalis Anbennar mod. Used in Sweddit Universalis multiplayer sessions.
-Made by Sea Raider and Gurkan
+Made by Gurkan (and Sea Raider.. sort of..)
 
 Enjoy!
