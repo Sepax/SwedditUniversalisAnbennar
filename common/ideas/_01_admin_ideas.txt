@@ -586,7 +586,7 @@ justiz0 = {
 	}
 	justiz6 = {
 		core_creation = -0.1
-		diplomatic_annexation_cost = -0.1
+		diplomatic_annexation_cost = -0.15
 	}
 	justiz7 = {
 		tolerance_heathen = 1
