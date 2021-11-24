@@ -11,3 +11,4 @@ tags={
 name="Sweddit Universalis Anbennar"
 path="mod/SwedditUniversalisAnbennar"
 supported_version="1.32.*"
+picture="thumbnail.jpg"
