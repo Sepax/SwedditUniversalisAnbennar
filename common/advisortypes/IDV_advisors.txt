@@ -315,7 +315,7 @@ idea_var_advisor_15 = {
 	
 	# Bonus
 
-	shock_damage = 0.05
+	shock_damage = 0.1
 
 	chance = {
 		factor = 1
@@ -335,7 +335,7 @@ idea_var_advisor_16 = {
 	
 	# Bonus
 
-	shock_damage_received = -0.05
+	shock_damage_received = -0.1
 
 	chance = {
 		factor = 1
@@ -355,7 +355,7 @@ idea_var_advisor_17 = {
 	
 	# Bonus
 
-	fire_damage = 0.05
+	fire_damage = 0.1
 
 	chance = {
 		factor = 1
@@ -375,7 +375,7 @@ idea_var_advisor_18 = {
 	
 	# Bonus
 
-	fire_damage_received = -0.05
+	fire_damage_received = -0.1
 
 	chance = {
 		factor = 1
@@ -575,7 +575,7 @@ idea_var_advisor_29 = {
 	}
 	
 	# Bonus
-	drill_gain_modifier = 0.025
+	drill_gain_modifier = 0.5
 
 	chance = {
 		factor = 1
