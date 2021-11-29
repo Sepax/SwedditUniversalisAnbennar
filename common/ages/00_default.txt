@@ -235,24 +235,6 @@ age_of_discovery = {
 			}
 		}
 		
-		ab_greentide_settlers = {
-			allow = {
-				OR = {
-					capital_scope = { region = west_castanor_region }
-					capital_scope = { region = south_castanor_region }
-					capital_scope = { region = inner_castanor_region }
-					capital_scope = { area = cursewood_area }
-					capital_scope = { area = whistlevale_area }
-				}
-			}
-			modifier = {
-				tribal_development_growth = 0.03
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		
 		ab_anbennar_decentralization_of_the_empire = {
 			allow = {
 				is_part_of_hre = yes
