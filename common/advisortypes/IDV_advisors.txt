@@ -415,7 +415,7 @@ idea_var_advisor_20 = {
 	
 	# Bonus
 
-	interest = -1
+	interest = -0.5
 
 	chance = {
 		factor = 1

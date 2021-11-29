@@ -1,11 +1,19 @@
 ----- DOGE NDefines.NDiplomacy -----
 
+--Diplo
+NDefines.NMilitary.WARGOAL_MAX_BONUS = 35
+NDefines.NDiplomacy.MIN_RELATIONS_TO_ALLY = -200
+
+--Capital
+NDefines.NCountry.PS_MOVE_CAPITAL = 50
+
 --Cores
 NDefines.NCountry.ABANDON_CORE_PRESTIGE = 0 -- Default -10
 NDefines.NCountry.CORE_LOSE_PRESTIGE = 0 -- Default -10
 
 --Rivals
 NDefines.NCountry.PS_REPLACE_RIVAL = 50 --Default 100
+NDefines.NDiplomacy.CHANGE_RIVAL_YEARS = 0
 
 --National Focus
 NDefines.NCountry.NAT_FOCUS_YEARS = 15 -- Default 25
@@ -42,7 +50,7 @@ NDefines.NCountry.LAND_FORCELIMIT_EXTRA_COST_FACTOR = 6.0
 NDefines.NCountry.NAVAL_FORCELIMIT_EXTRA_COST_FACTOR = 6.0
 NDefines.NCountry.STARTING_ARMY_SIZE = 0.75 --.75
 NDefines.NCountry.STARTING_FLEET_SIZE = 0.75 --.9
---NDefines.NCountry.PS_SCORCH_EARTH = 5
+NDefines.NCountry.PS_SCORCH_EARTH = 5
 
 
 --Estates
@@ -57,7 +65,7 @@ NDefines.NCountry.PARLIAMENT_PRESTIGE_HIT = -10			-- penalty if failed debate.
 NDefines.NCountry.PARLIAMENT_CHANCE_OF_DECISION = 10		-- % Chance debate is ended after PARLIAMENT_DEBATE_DURATION
 
 -- Colonialism
-NDefines.NCountry.REGULAR_COLONY_GROWTH = 10 --25
+NDefines.NCountry.REGULAR_COLONY_GROWTH = 35 --25
 
 
 -- Barrage

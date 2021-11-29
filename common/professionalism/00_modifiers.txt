@@ -41,7 +41,7 @@ supply_depot_modifier = {
 	}
 
 	war_exhaustion = -0.05
-	land_attrition = -0.05
+	land_attrition = -0.2
 }
 
 refill_garrison_modifier = {
@@ -67,8 +67,8 @@ return_manpower_modifier = {
 	trigger = {
 		always = yes
 	}
-	reserves_organisation = 0.05
-	recover_army_morale_speed = 0.05
+	reserves_organisation = 0.10
+	recover_army_morale_speed = 0.5
 }
 
 general_cost_modifier = {

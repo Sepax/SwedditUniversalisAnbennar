@@ -68,7 +68,7 @@ banker = {
 	monarch_power = ADM
 	
 	# Bonus
-	interest = -1
+	interest = -0.5
 
 	skill_scaled_modifier = { meritocracy = 0.25 }
 

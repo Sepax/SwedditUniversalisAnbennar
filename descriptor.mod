@@ -9,6 +9,7 @@ tags={
 	"Gameplay"
 }
 name="Sweddit Universalis Anbennar"
-path="mod/SwedditUniversalisAnbennar"
-supported_version="1.32.*"
 picture="thumbnail.jpg"
+supported_version="1.32.*"
+path="C:/Users/sebastian/Documents/Paradox Interactive/Europa Universalis IV/mod/SwedditUniversalisAnbennar"
+remote_file_id="2663071760"
