@@ -1,0 +1,1291 @@
+
+# duty = {
+    # ambient_object = duty
+    # province = 5253
+    # is_canal = no
+    # time = 120
+    
+    # # Applied to the province defined above on project completion
+    # modifier = {
+		# global_unrest = -1
+    # }
+# }
+
+silmuna_university = {
+	start = 3
+
+	date = 229.1.1
+
+	time = {
+		months = 120
+	}
+
+	build_cost = 1000
+
+	can_be_moved = no
+
+	starting_tier = 1
+
+	#project type
+	type = monument
+
+	build_trigger = {
+		OR = {		
+
+		}
+	}
+
+	on_built = {
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+
+	}
+
+	can_upgrade_trigger = {
+
+	}
+
+	keep_trigger = {
+	}
+
+	#tier data
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		province_modifiers = {
+		}
+
+		area_modifier = {
+		}
+
+		country_modifiers = {
+
+		}
+
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		cost_to_upgrade = {
+			factor = 1000
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+		}
+
+		country_modifiers = {
+			innovativeness_gain = 0.10
+		}
+
+		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_mages
+					loyalty = 5
+				}
+			}
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		
+		cost_to_upgrade = {
+			factor = 2500
+		}
+
+		
+		province_modifiers = {
+			
+		}
+
+		
+		area_modifier = {
+		}
+
+		
+		country_modifiers = {
+			innovativeness_gain = 0.20
+		}
+
+		
+		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_mages
+					loyalty = 10
+				}
+			}
+		}
+	}
+
+	tier_3 = {
+		
+		upgrade_time = {
+			months = 120
+		}
+
+		
+		cost_to_upgrade = {
+			factor = 5000
+		}
+
+		
+		province_modifiers = {
+			
+		}
+
+		
+		area_modifier = {
+		}
+
+		
+		country_modifiers = {
+			innovativeness_gain = 0.30
+			papal_influence = 0.5
+		}
+		
+		on_upgraded = {
+		}
+	}
+}
+
+brasan_academy = {
+	start = 565
+
+	date = 229.1.1
+
+	time = {
+		months = 120
+	}
+
+	build_cost = 1000
+
+	can_be_moved = no
+
+	starting_tier = 1
+
+	#project type
+	type = monument
+
+	build_trigger = {
+		OR = {		
+
+		}
+	}
+
+	on_built = {
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+
+	}
+
+	can_upgrade_trigger = {
+
+	}
+
+	keep_trigger = {
+	}
+
+	#tier data
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		province_modifiers = {
+		}
+
+		area_modifier = {
+		}
+
+		country_modifiers = {
+
+		}
+
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		cost_to_upgrade = {
+			factor = 1000
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+		}
+
+		country_modifiers = {
+			innovativeness_gain = 0.10
+		}
+
+		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_mages
+					loyalty = 5
+				}
+			}
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		
+		cost_to_upgrade = {
+			factor = 2500
+		}
+
+		
+		province_modifiers = {
+			
+		}
+
+		
+		area_modifier = {
+		}
+
+		
+		country_modifiers = {
+			innovativeness_gain = 0.20
+		}
+
+		
+		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_mages
+					loyalty = 10
+				}
+			}
+		}
+	}
+
+	tier_3 = {
+		
+		upgrade_time = {
+			months = 120
+		}
+
+		
+		cost_to_upgrade = {
+			factor = 5000
+		}
+
+		
+		province_modifiers = {
+			
+		}
+
+		
+		area_modifier = {
+		}
+
+		
+		country_modifiers = {
+			innovativeness_gain = 0.30
+			establish_order_cost = -0.1
+		}
+		
+		on_upgraded = {
+		}
+	}
+}
+
+altar_of_blood = {
+	start = 4033
+
+	date = 229.1.1
+
+	time = {
+		months = 120
+	}
+
+	build_cost = 1000
+
+	can_be_moved = no
+
+	starting_tier = 1
+
+	#project type
+	type = monument
+
+	build_trigger = {
+		OR = {		
+
+		}
+	}
+
+	on_built = {
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+
+	}
+
+	can_upgrade_trigger = {
+
+	}
+
+	keep_trigger = {
+	}
+
+	#tier data
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		province_modifiers = {
+		}
+
+		area_modifier = {
+		}
+
+		country_modifiers = {
+
+		}
+
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		cost_to_upgrade = {
+			factor = 1000
+		}
+
+		province_modifiers = {
+			local_hostile_attrition = 1
+		}
+
+		area_modifier = {
+		}
+
+		country_modifiers = {
+		}
+
+		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_monstrous_tribes
+					loyalty = 5
+				}
+			}
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		
+		cost_to_upgrade = {
+			factor = 2500
+		}
+
+		
+		province_modifiers = {
+			local_hostile_attrition = 2	
+		}
+
+		
+		area_modifier = {
+		}
+
+		
+		country_modifiers = {
+		
+		}
+
+		
+		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_monstrous_tribes
+					loyalty = 10
+				}
+			}
+		}
+	}
+
+	tier_3 = {
+		
+		upgrade_time = {
+			months = 120
+		}
+
+		
+		cost_to_upgrade = {
+			factor = 5000
+		}
+
+		
+		province_modifiers = {
+			local_hostile_attrition = 2
+		}
+
+		
+		area_modifier = {
+			local_hostile_attrition = 1
+		}
+
+		
+		country_modifiers = {
+		}
+		
+		on_upgraded = {
+		}
+	}
+}
+
+dragons_hoard = {
+	start = 189
+
+	date = 229.1.1
+
+	time = {
+		months = 120
+	}
+
+	build_cost = 1000
+
+	can_be_moved = no
+
+	starting_tier = 1
+
+	#project type
+	type = monument
+
+	build_trigger = {
+		OR = {		
+
+		}
+	}
+
+	on_built = {
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+
+	}
+
+	can_upgrade_trigger = {
+
+	}
+
+	keep_trigger = {
+	}
+
+	#tier data
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		province_modifiers = {
+		}
+
+		area_modifier = {
+		}
+
+		country_modifiers = {
+
+		}
+
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		cost_to_upgrade = {
+			factor = 1000
+		}
+
+		province_modifiers = {
+		
+		}
+
+		area_modifier = {
+		}
+
+		country_modifiers = {
+			global_tax_income = 8
+		}
+
+		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_monstrous_tribes
+					loyalty = 5
+				}
+			}
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		
+		cost_to_upgrade = {
+			factor = 2500
+		}
+
+		
+		province_modifiers = {
+		
+		}
+
+		
+		area_modifier = {
+		
+		}
+
+		
+		country_modifiers = {
+			global_tax_income = 16
+		}
+
+		
+		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_monstrous_tribes
+					loyalty = 10
+				}
+			}
+		}
+	}
+
+	tier_3 = {
+		
+		upgrade_time = {
+			months = 120
+		}
+
+		
+		cost_to_upgrade = {
+			factor = 5000
+		}
+
+		
+		province_modifiers = {
+		
+		}
+
+		
+		area_modifier = {
+			local_tax_modifier = 0.1
+		}
+
+		
+		country_modifiers = {
+			global_tax_income =  32
+		}
+		
+		on_upgraded = {
+		}
+	}
+}
+
+ravenhill_fortress = {
+	start = 431
+
+	date = 229.1.1
+
+	time = {
+		months = 120
+	}
+
+	build_cost = 1000
+
+	can_be_moved = no
+
+	starting_tier = 1
+
+	#project type
+	type = monument
+
+	build_trigger = {
+		OR = {		
+
+		}
+	}
+
+	on_built = {
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+
+	}
+
+	can_upgrade_trigger = {
+
+	}
+
+	keep_trigger = {
+	}
+
+	#tier data
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		province_modifiers = {
+		}
+
+		area_modifier = {
+		}
+
+		country_modifiers = {
+
+		}
+
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		cost_to_upgrade = {
+			factor = 1000
+		}
+
+		province_modifiers = {
+			local_defensiveness = 0.05
+		}
+
+		area_modifier = {
+		}
+
+		country_modifiers = {
+			
+		}
+
+		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 5
+				}
+			}
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		
+		cost_to_upgrade = {
+			factor = 2500
+		}
+
+		
+		province_modifiers = {
+			local_defensiveness = 0.10
+		}
+
+		
+		area_modifier = {
+			
+		}
+
+		
+		country_modifiers = {
+			global_spy_defence = 0.10
+		}
+
+		
+		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 10
+				}
+			}
+		}
+	}
+
+	tier_3 = {
+		
+		upgrade_time = {
+			months = 120
+		}
+
+		
+		cost_to_upgrade = {
+			factor = 5000
+		}
+
+		
+		province_modifiers = {
+			local_defensiveness = 0.15
+		}
+
+		
+		area_modifier = {
+		
+		}
+
+		
+		country_modifiers = {
+			global_spy_defence = 0.25
+		}
+		
+		on_upgraded = {
+		}
+	}
+}
+
+silent_monastery = {
+	start = 350
+
+	date = 229.1.1
+
+	time = {
+		months = 120
+	}
+
+	build_cost = 1000
+
+	can_be_moved = no
+
+	starting_tier = 1
+
+	#project type
+	type = monument
+
+	build_trigger = {
+		AND = {
+			religion = elven_forebears
+			has_owner_religion = yes
+		}
+	}
+
+	on_built = {
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+		AND = {
+			religion = elven_forebears
+			has_owner_religion = yes
+		}
+	}
+
+	can_upgrade_trigger = {
+		AND = {
+			religion = elven_forebears
+			has_owner_religion = yes
+		}
+	}
+
+	keep_trigger = {
+	}
+
+	#tier data
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		province_modifiers = {
+		}
+
+		area_modifier = {
+		}
+
+		country_modifiers = {
+
+		}
+
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		cost_to_upgrade = {
+			factor = 1000
+		}
+
+		province_modifiers = {
+		
+		}
+
+		area_modifier = {
+		}
+
+		country_modifiers = {
+			tolerance_own = 1
+		}
+
+		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 5
+				}
+			}
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		
+		cost_to_upgrade = {
+			factor = 2500
+		}
+
+		
+		province_modifiers = {
+		
+		}
+
+		
+		area_modifier = {
+			
+		}
+
+		
+		country_modifiers = {
+			tolerance_own = 2
+		}
+
+		
+		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 10
+				}
+			}
+		}
+	}
+
+	tier_3 = {
+		
+		upgrade_time = {
+			months = 120
+		}
+
+		
+		cost_to_upgrade = {
+			factor = 5000
+		}
+
+		
+		province_modifiers = {
+		
+		}
+
+		
+		area_modifier = {
+		
+		}
+
+		
+		country_modifiers = {
+			tolerance_own = 2
+			missionaries = 1
+		}
+		
+		on_upgraded = {
+		}
+	}
+}
+
+memorial_of_the_moon = {
+	start = 11
+
+	date = 229.1.1
+
+	time = {
+		months = 120
+	}
+
+	build_cost = 1000
+
+	can_be_moved = no
+
+	starting_tier = 1
+
+	#project type
+	type = monument
+
+	build_trigger = {
+
+	}
+
+	on_built = {
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+
+	}
+
+	can_upgrade_trigger = {
+
+	}
+
+	keep_trigger = {
+	}
+
+	#tier data
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		province_modifiers = {
+		}
+
+		area_modifier = {
+		}
+
+		country_modifiers = {
+
+		}
+
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		cost_to_upgrade = {
+			factor = 1000
+		}
+
+		province_modifiers = {
+		
+		}
+
+		area_modifier = {
+		}
+
+		country_modifiers = {
+			navy_tradition = 0.5
+		}
+
+		on_upgraded = {
+
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		
+		cost_to_upgrade = {
+			factor = 2500
+		}
+
+		
+		province_modifiers = {
+		
+		}
+
+		
+		area_modifier = {
+			
+		}
+
+		
+		country_modifiers = {
+			navy_tradition = 1
+			sunk_ship_morale_hit_recieved = -0.05
+		}
+
+		
+		on_upgraded = {
+
+		}
+	}
+
+	tier_3 = {
+		
+		upgrade_time = {
+			months = 120
+		}
+
+		
+		cost_to_upgrade = {
+			factor = 5000
+		}
+
+		
+		province_modifiers = {
+		
+		}
+
+		
+		area_modifier = {
+		
+		}
+
+		
+		country_modifiers = {
+			navy_tradition = 2
+			sunk_ship_morale_hit_recieved = -0.1
+			naval_morale = 0.1
+		}
+		
+		on_upgraded = {
+		}
+	}
+}
+
+grand_palace_of_harimar = {
+	start = 4411
+
+	date = 229.1.1
+
+	time = {
+		months = 120
+	}
+
+	build_cost = 1000
+
+	can_be_moved = no
+
+	starting_tier = 1
+
+	#project type
+	type = monument
+
+	build_trigger = {
+
+	}
+
+	on_built = {
+	}
+
+	on_destroyed = {
+	}
+
+	can_use_modifiers_trigger = {
+
+	}
+
+	can_upgrade_trigger = {
+
+	}
+
+	keep_trigger = {
+	}
+
+	#tier data
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		province_modifiers = {
+		}
+
+		area_modifier = {
+		}
+
+		country_modifiers = {
+
+		}
+
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		cost_to_upgrade = {
+			factor = 1000
+		}
+
+		province_modifiers = {
+		
+		}
+
+		area_modifier = {
+		}
+
+		country_modifiers = {
+			prestige = 0.1
+		}
+
+		on_upgraded = {
+			add_prestige = 5
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		
+		cost_to_upgrade = {
+			factor = 2500
+		}
+
+		
+		province_modifiers = {
+		
+		}
+
+		
+		area_modifier = {
+			
+		}
+
+		
+		country_modifiers = {
+			prestige = 0.25
+		}
+
+		
+		on_upgraded = {
+			add_prestige = 10
+		}
+	}
+
+	tier_3 = {
+		
+		upgrade_time = {
+			months = 120
+		}
+
+		
+		cost_to_upgrade = {
+			factor = 5000
+		}
+
+		
+		province_modifiers = {
+			province_trade_power_modifier = 0.20
+		}
+
+		
+		area_modifier = {
+		
+		}
+
+		
+		country_modifiers = {
+			prestige = 0.5
+		}
+		
+		on_upgraded = {
+		
+		}
+	}
+}
