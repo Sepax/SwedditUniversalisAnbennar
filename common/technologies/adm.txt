@@ -83,6 +83,7 @@ technology = { #Medieval Administration
 	may_support_rebels = yes
 	
 	mage_tower = yes
+	artificer_lab = yes
 }
  
 technology = { #Temples
