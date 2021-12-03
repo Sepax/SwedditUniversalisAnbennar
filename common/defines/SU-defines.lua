@@ -50,7 +50,7 @@ NDefines.NCountry.LAND_FORCELIMIT_EXTRA_COST_FACTOR = 6.0
 NDefines.NCountry.NAVAL_FORCELIMIT_EXTRA_COST_FACTOR = 6.0
 NDefines.NCountry.STARTING_ARMY_SIZE = 0.75 --.75
 NDefines.NCountry.STARTING_FLEET_SIZE = 0.75 --.9
-NDefines.NCountry.PS_SCORCH_EARTH = 5
+NDefines.NCountry.PS_SCORCH_EARTH = 25
 
 
 --Estates

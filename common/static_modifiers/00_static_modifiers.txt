@@ -431,6 +431,7 @@ devastation = {
 	local_sailors_modifier = -1.0
 	local_hostile_movement_speed = -0.25
 	local_friendly_movement_speed = -0.25
+	attrition = 10
 }
 
 prosperity = {
@@ -535,7 +536,6 @@ left_trade_company = {
 
 scorched_earth = {
 	local_hostile_movement_speed = -0.50
-	local_hostile_attrition = 1
 }
 
 ##########################################################################
