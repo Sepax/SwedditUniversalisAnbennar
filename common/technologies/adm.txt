@@ -26,6 +26,8 @@ technology = { #Tribal Government
 	native_great_trail = yes
 	native_ceremonial_fire_pit = yes
 
+	early_road = yes
+
 	warcamp = yes
 	guild_hall = yes
 	native_fortified_house = yes
@@ -173,6 +175,7 @@ technology = { #Modern Theocracy
 	
 	theocratic_government = yes
 	allowed_idea_groups = 6
+	gravel_road = yes
 }
 
 technology = { #Textile Manufactory
@@ -293,6 +296,7 @@ technology = { #National Sovereignty
 	}
 	
 	allowed_idea_groups	= 10
+	royal_road = yes
 }
 
 technology = { #Cathedral
@@ -376,6 +380,7 @@ technology = { #Measuring the World
 	
 	administrative_efficiency = 0.1
 	development_efficiency = 0.1
+	macadam_road = yes
 }
 
 technology = { #Bonds and Tontines

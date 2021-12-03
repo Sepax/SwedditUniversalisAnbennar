@@ -1,0 +1,25 @@
+country_decisions = { 
+
+	road_settings_decision = {
+		major = yes
+		potential = {
+			ai = no
+			NOT = { has_global_flag = Settings_Roads }
+		}
+		
+		allow = {
+			always = yes
+		}
+		
+		effect = {
+			country_event = { id = road_settings.1 }
+		
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	
+	}
+
+}
