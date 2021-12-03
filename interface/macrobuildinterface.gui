@@ -466,7 +466,7 @@ guiTypes = {
 		name = "new_buildings_entry"
 		backGround=""
 		position = { x=0 y =0}	
-		size = { x=400 y = 600}
+		size = { x=470 y = 700}
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -967,12 +967,12 @@ guiTypes = {
 		
 		checkboxType = { ##EARLY ROAD
 			name = "build_early_road"
-			position = { x = 9 y = 517 }
+			position = { x = 9 y = 520 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}	
 		instantTextBoxType={ 
 			name = "early_road_cost"
-			position = {x = 9 y = 567 }
+			position = {x = 9 y = 570 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
@@ -983,12 +983,12 @@ guiTypes = {
 		
 		checkboxType = { ##GRAVEL ROAD
 			name = "build_gravel_road"
-			position = { x = 61 y = 517 }
+			position = { x = 61 y = 520 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 		instantTextBoxType={ 
 			name = "gravel_road_cost"
-			position = {x = 61 y = 567 }
+			position = {x = 61 y = 570 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
@@ -999,12 +999,12 @@ guiTypes = {
 		
 		checkboxType = { ##ROYAL ROAD
 			name = "build_royal_road"
-			position = { x = 113 y = 517 }
+			position = { x = 113 y = 520 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 		instantTextBoxType={ 
 			name = "royal_road_cost"
-			position = {x = 113 y = 567 }
+			position = {x = 113 y = 570 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
@@ -1015,18 +1015,18 @@ guiTypes = {
 		
 		checkboxType = { ##MACADAM ROAD
 			name = "build_macadam_road"
-			position = { x = 165 y = 517 }
+			position = { x = 165 y = 520 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 		instantTextBoxType={
 			name = "macadam_road_cost"
-			position = {x = 165 y = 567 }
+			position = {x = 165 y = 570 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 128
 			maxHeight = 18
 			text = "2000¤"	
-		}		
+		}
 		
 		
 		
