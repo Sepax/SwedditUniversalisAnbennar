@@ -1,0 +1,92 @@
+namespace = road_settings
+
+country_event = {
+	id = road_settings.1
+	title = road_settings.1.title
+	desc = road_settings.1.desc
+	picture = TRADEGOODS_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		Not = { has_global_flag = Settings_Roads }
+	}
+	
+	option = {
+		name = road_settings.close #Exit
+		set_global_flag = Settings_Roads
+		highlight = yes
+	}
+	
+	# ROADS
+	option = { # Roads are On
+		name = road_settings.1.a.1
+		trigger = { Not = { has_global_flag = No_Roads } }
+		set_global_flag = No_Roads
+		country_event = { id = road_settings.1 }
+	}
+	option = { # Roads are Off
+		name = road_settings.1.b.1
+		trigger = { has_global_flag = No_Roads }
+		clr_global_flag = No_Roads
+		country_event = { id = road_settings.1 }
+	}
+	
+	# ADVISORS
+	option = { # Advisors are On
+		name = road_settings.1.a.2
+		trigger = { Not = { has_global_flag = No_Advisors } }
+		set_global_flag = No_Advisors
+		country_event = { id = road_settings.1 }
+	}
+	option = { # Advisors are Off
+		name = road_settings.1.b.2
+		trigger = { has_global_flag = No_Advisors }
+		clr_global_flag = No_Advisors
+		country_event = { id = road_settings.1 }
+	}
+
+	# SUBJECT
+	# option = { # Subject are On
+		# name = road_settings.1.a.3
+		# trigger = { Not = { has_global_flag = No_Subject } }
+		# set_global_flag = No_Subject
+		# country_event = { id = road_settings.1 }
+	# }
+	# option = { # Subject are Off
+		# name = road_settings.1.b.3
+		# trigger = { has_global_flag = No_Subject }
+		# clr_global_flag = No_Subject
+		# country_event = { id = road_settings.1 }
+	# }
+
+	# CB
+	option = { # CB are On
+		name = road_settings.1.a.4
+		trigger = { Not = { has_global_flag = No_CB } }
+		set_global_flag = No_CB
+		country_event = { id = road_settings.1 }
+	}
+	option = { # CB are Off
+		name = road_settings.1.b.4
+		trigger = { has_global_flag = No_CB }
+		clr_global_flag = No_CB
+		country_event = { id = road_settings.1 }
+	}	
+}
+
+country_event = { ### Reset settings 
+	id = road_settings.2
+	title = road_settings.2.title
+	desc = road_settings.2.desc
+	picture = TRADEGOODS_eventPicture
+	
+	is_triggered_only = yes
+	trigger = {
+		has_global_flag = Settings_Roads
+	}
+	
+	option = {
+		name = road_settings.clear
+		clr_global_flag = Settings_Roads
+	}
+}
