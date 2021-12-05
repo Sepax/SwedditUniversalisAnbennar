@@ -1380,13 +1380,13 @@ guiTypes = {
 		#SU Anbennar
         		checkboxType = {
         			name = "build_artificer_lab"
-        			position = { x = 321 y = 420 }
+        			position = { x = 371 y = 420 }
         			quadTextureSprite = "GFX_furnace"
         		}
 
         		instantTextBoxType={
-        			name = "mage_artificer_lab"
-        			position = {x = 321 y = 470 }
+        			name = "artificer_lab_cost"
+        			position = {x = 371 y = 470 }
         			font = "vic_18"
         			borderSize = {x = 0 y = 0}
         			maxWidth = 128
