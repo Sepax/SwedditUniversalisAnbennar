@@ -3,7 +3,7 @@ artificer_lab = {
 		all
 	}
 	build_trigger = {
-		has_country_flag = supporting_artificers
+		FROM = { has_estate = estate_artificers }
 	}
 
 	bonus_manufactory = { # Will apply an extra modifier if these goods
@@ -53,7 +53,7 @@ artificer_lab = {
             hidden_effect = {
                 change_variable = {
                     which = StaticArtificePoints
-                    value = 10
+                    value = 7
                 }   
             }
             update_artifice_points = yes
@@ -87,7 +87,7 @@ artificer_lab = {
             hidden_effect = {
                 change_variable = {
                     which = StaticArtificePoints
-                    value = -10
+                    value = -7
                 }   
             }
             update_artifice_points = yes
