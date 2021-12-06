@@ -332,7 +332,7 @@ administrative_ideas = {
 	category = ADM
 
 	bonus = {
-		governing_capacity_modifier = 0.1
+		governing_capacity_modifier = 0.3
 	}
 
 	organised_mercenary_payment = {
