@@ -3,10 +3,10 @@ spriteTypes = {
 		name = "GFX_nothing"
 		texturefile = "gfx/interface/nothing.dds"
 	}	
-	#spriteType = {
-	#	name = "GFX_outliner_options"
-	#	texturefile = "gfx/interface/outliner_options.dds"
-	#}
+	spriteType = {
+		name = "GFX_outliner_options"
+		texturefile = "gfx/interface/outliner_options.dds"
+	}
 	spriteType = {
 		name = "GFX_add_policy"
 		texturefile = "gfx/interface/add_policy.dds"
