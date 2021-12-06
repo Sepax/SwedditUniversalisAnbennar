@@ -12,10 +12,10 @@ artificer_lab = {
 	}
 
 	modifier = {
-		local_build_cost = -0.2
+		innovativeness_gain = 0.05
 	}
 	bonus_modifier = {
-		local_build_cost = -0.5
+		technology_cost = -0.05
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
@@ -44,40 +44,13 @@ artificer_lab = {
             clr_province_flag = latest_manufactory_built_is_mage_tower
 		}
 
-        if = {
-            OR = {
-                trade_goods = precursor_relics
-                trade_goods = damestear
-            }
-            
-            hidden_effect = {
-                change_variable = {
-                    which = StaticArtificePoints
-                    value = 7
-                }   
-            }
-            update_artifice_points = yes
-        }
-
-        if = {
-            NOT = {
-                OR = {
-                    trade_goods = precursor_relics
-                    trade_goods = damestear
-                }
-            }
-            
-            hidden_effect = {
+        hidden_effect = {
                 change_variable = {
                     which = StaticArtificePoints
                     value = 2
-                }   
-            }
-            update_artifice_points = yes
+                }
         }
-	}
 
-    on_destroyed = {
         if = {
             OR = {
                 trade_goods = precursor_relics
@@ -87,27 +60,37 @@ artificer_lab = {
             hidden_effect = {
                 change_variable = {
                     which = StaticArtificePoints
-                    value = -7
+                    value = 5
                 }   
             }
-            update_artifice_points = yes
         }
 
-        if = {
-            NOT = {
-                OR = {
-                    trade_goods = precursor_relics
-                    trade_goods = damestear
+        update_artifice_points = yes
+	}
+
+    on_destroyed = {
+        hidden_effect = {
+                change_variable = {
+                    which = StaticArtificePoints
+                    value = -2
                 }
+            }
+
+        if = {
+
+            OR = {
+                trade_goods = precursor_relics
+                trade_goods = damestear
             }
             
             hidden_effect = {
                 change_variable = {
                     which = StaticArtificePoints
-                    value = -2
+                    value = -5
                 }   
             }
-            update_artifice_points = yes
         }
+
+        update_artifice_points = yes
     }
 }
