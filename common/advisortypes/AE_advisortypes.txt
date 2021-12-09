@@ -3,7 +3,7 @@ administrator = {
 	monarch_power = ADM
 	
 	# Bonus
-	governing_capacity_modifier = 0.15
+	governing_capacity_modifier = 0.2
 
 	skill_scaled_modifier = { meritocracy = 0.25 }
 
@@ -13,40 +13,6 @@ administrator = {
 	
 	ai_will_do = {
 		factor = 1
-	}
-}
-
-state_overseer = {
-	monarch_power = ADM
-	
-	# Bonus
-	global_unrest = -1
-
-	skill_scaled_modifier = { meritocracy = 0.25 }
-
-	chance = {
-		factor = 1
-	}
-	
-	ai_will_do = {
-		factor = 0
-	}
-}
-
-civil_engineer = {
-	monarch_power = ADM
-	
-	# Bonus
-	development_cost = -0.05
-
-	skill_scaled_modifier = { meritocracy = 0.25 }
-
-	chance = {
-		factor = 1
-	}
-	
-	ai_will_do = {
-		factor = 10
 	}
 }
 
@@ -54,7 +20,7 @@ researcher = {
 	monarch_power = ADM
 	
 	# Bonus
-	global_institution_spread = 0.15
+	global_institution_spread = 0.2
 
 	skill_scaled_modifier = { meritocracy = 0.25 }
 
@@ -153,7 +119,7 @@ navarch = {
 	monarch_power = DIP
 	
 	# Bonus
-	navy_tradition_decay = -0.005
+	navy_tradition_decay = -0.01
 
 	skill_scaled_modifier = { meritocracy = 0.25 }
 
@@ -196,7 +162,7 @@ commander = {
 	monarch_power = MIL
 	
 	# Bonus
-	army_tradition_decay = -0.005
+	army_tradition_decay = -0.01
 
 	skill_scaled_modifier = { meritocracy = 0.25 }
 
@@ -209,26 +175,6 @@ commander = {
 	}
 }
 
-combat_engineer = {
-	monarch_power = MIL
-	
-	# Bonus
-	siege_ability = 0.05
-
-	skill_scaled_modifier = { meritocracy = 0.25 }
-
-	chance = {
-		factor = 1
-	}
-	
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 50
-			is_at_war = yes
-		}
-	}
-}
 tactician = {
 	monarch_power = MIL
 	
@@ -249,7 +195,7 @@ mercenary_captain = {
 	monarch_power = MIL
 	
 	# Bonus
-	mercenary_cost = -0.1
+	mercenary_cost = -0.2
 
 	skill_scaled_modifier = { meritocracy = 0.25 }
 

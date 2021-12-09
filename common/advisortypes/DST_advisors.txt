@@ -64,26 +64,6 @@ prominentSufi = {
 	}
 }
 
-banker = {
-	monarch_power = ADM
-	
-	# Bonus
-	interest = -0.5
-
-	skill_scaled_modifier = { meritocracy = 0.25 }
-
-        #allow_only_male = yes
-        #allow_only_female = yes
-
-	chance = {
-		factor = 1
-	}
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
 subject_taxman = {
 	monarch_power = ADM
 
@@ -244,7 +224,7 @@ supplier = {
 	monarch_power = MIL
 	
 	# Bonus
-	land_attrition = -0.1
+	land_attrition = -0.2
 
 	skill_scaled_modifier = { meritocracy = 0.25 }
 
@@ -264,7 +244,7 @@ fieldSurgeon = {
 	monarch_power = MIL
 	
 	# Bonus
-	manpower_recovery_speed = 0.1
+	manpower_recovery_speed = 0.15
 
 	skill_scaled_modifier = { meritocracy = 0.25 }
 
