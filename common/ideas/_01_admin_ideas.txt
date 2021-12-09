@@ -213,6 +213,12 @@ expansion_ideas = {
 		global_trade_power = 0.2
 		may_explore = yes
 	}
+
+	trigger{
+		NOT {
+			has_reform = adventurer_reform
+		}
+	}
 	
 	additional_colonists = {
 		colonists = 1

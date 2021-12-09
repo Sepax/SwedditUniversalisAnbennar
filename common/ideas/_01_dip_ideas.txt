@@ -300,6 +300,12 @@ exploration_ideas = {
 		cb_on_primitives = yes
 	}
 
+	trigger{
+		NOT {
+			has_reform = adventurer_reform
+		}
+	}
+
 	colonial_ventures = {
 		colonists = 1
 	}
