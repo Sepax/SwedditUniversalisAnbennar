@@ -121,9 +121,17 @@ age_of_discovery = {
 				}
 			}
 		ase_dynamic_court = {
-			has_adm_advisor = yes
-			has_dip_advisor = yes
-			has_mil_advisor = yes
+			AND = {
+				employed_advisor = {
+				category = ADM
+				}
+				employed_advisor = {
+					category = DIP
+				}
+				employed_advisor = {
+					category = MIL
+				}
+			}
 		}
 	}
 
