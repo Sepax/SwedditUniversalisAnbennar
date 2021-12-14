@@ -30,6 +30,7 @@ dse_policy_dev_cost_1 = {
                 has_active_policy = dse_policy_dev_cost_14
 				has_active_policy = dse_policy_dev_cost_15
 				has_active_policy = dse_policy_dev_cost_16
+				has_active_policy = agricultural_cultivations
 			}
 		}
 	}
@@ -73,6 +74,7 @@ dse_policy_dev_cost_2 = {
                 has_active_policy = dse_policy_dev_cost_14
 				has_active_policy = dse_policy_dev_cost_15
 				has_active_policy = dse_policy_dev_cost_16
+                has_active_policy = agricultural_cultivations
 			}
 		}
 	}
@@ -117,6 +119,7 @@ dse_policy_dev_cost_3 = {
                 has_active_policy = dse_policy_dev_cost_14
 				has_active_policy = dse_policy_dev_cost_15
 				has_active_policy = dse_policy_dev_cost_16
+                has_active_policy = agricultural_cultivations
 			}
 		}
 	}
@@ -160,6 +163,7 @@ dse_policy_dev_cost_4 = {
                 has_active_policy = dse_policy_dev_cost_14
 				has_active_policy = dse_policy_dev_cost_15
 				has_active_policy = dse_policy_dev_cost_16
+                has_active_policy = agricultural_cultivations
 			}
 		}
 	}
@@ -203,6 +207,7 @@ dse_policy_dev_cost_5 = {
                 has_active_policy = dse_policy_dev_cost_14
 				has_active_policy = dse_policy_dev_cost_15
 				has_active_policy = dse_policy_dev_cost_16
+                has_active_policy = agricultural_cultivations
 			}
 		}
 	}
@@ -246,6 +251,7 @@ dse_policy_dev_cost_6 = {
                 has_active_policy = dse_policy_dev_cost_14
 				has_active_policy = dse_policy_dev_cost_15
 				has_active_policy = dse_policy_dev_cost_16
+                has_active_policy = agricultural_cultivations
 			}
 		}
 	}
@@ -289,6 +295,7 @@ dse_policy_dev_cost_7 = {
                 has_active_policy = dse_policy_dev_cost_14
 				has_active_policy = dse_policy_dev_cost_15
 				has_active_policy = dse_policy_dev_cost_16
+                has_active_policy = agricultural_cultivations
 			}
 		}
 	}
@@ -332,6 +339,7 @@ dse_policy_dev_cost_8 = {
                 has_active_policy = dse_policy_dev_cost_14
 				has_active_policy = dse_policy_dev_cost_15
 				has_active_policy = dse_policy_dev_cost_16
+                has_active_policy = agricultural_cultivations
 			}
 		}
 	}
@@ -375,6 +383,7 @@ dse_policy_dev_cost_9 = {
                 has_active_policy = dse_policy_dev_cost_14
 				has_active_policy = dse_policy_dev_cost_15
 				has_active_policy = dse_policy_dev_cost_16
+                has_active_policy = agricultural_cultivations
 			}
 		}
 	}
@@ -426,6 +435,7 @@ dse_policy_dev_cost_10 = {
                 has_active_policy = dse_policy_dev_cost_14
 				has_active_policy = dse_policy_dev_cost_15
 				has_active_policy = dse_policy_dev_cost_16
+                has_active_policy = agricultural_cultivations
 			}
 		}
 	}
@@ -469,6 +479,7 @@ dse_policy_dev_cost_11 = {
                 has_active_policy = dse_policy_dev_cost_14
 				has_active_policy = dse_policy_dev_cost_15
 				has_active_policy = dse_policy_dev_cost_16
+                has_active_policy = agricultural_cultivations
 			}
 		}
 	}
@@ -512,6 +523,7 @@ dse_policy_dev_cost_12 = {
                 has_active_policy = dse_policy_dev_cost_14
 				has_active_policy = dse_policy_dev_cost_15
 				has_active_policy = dse_policy_dev_cost_16
+                has_active_policy = agricultural_cultivations
 			}
 		}
 	}
@@ -555,6 +567,7 @@ dse_policy_dev_cost_13 = {
                 has_active_policy = dse_policy_dev_cost_14
 				has_active_policy = dse_policy_dev_cost_15
 				has_active_policy = dse_policy_dev_cost_16
+                has_active_policy = agricultural_cultivations
 			}
 		}
 	}
@@ -598,6 +611,7 @@ dse_policy_dev_cost_14 = {
                 has_active_policy = dse_policy_dev_cost_14
 				has_active_policy = dse_policy_dev_cost_15
 				has_active_policy = dse_policy_dev_cost_16
+                has_active_policy = agricultural_cultivations
 			}
 		}
 	}
@@ -641,6 +655,7 @@ dse_policy_dev_cost_15 = {
                 has_active_policy = dse_policy_dev_cost_14
 				has_active_policy = dse_policy_dev_cost_15
 				has_active_policy = dse_policy_dev_cost_16
+                has_active_policy = agricultural_cultivations
 			}
 		}
 	}
@@ -684,6 +699,7 @@ dse_policy_dev_cost_16 = {
                 has_active_policy = dse_policy_dev_cost_14
 				has_active_policy = dse_policy_dev_cost_15
 				has_active_policy = dse_policy_dev_cost_16
+                has_active_policy = agricultural_cultivations
 			}
 		}
 	}
