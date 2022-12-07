@@ -10,6 +10,6 @@ tags={
 }
 name="Sweddit Universalis Anbennar"
 picture="thumbnail.jpg"
-supported_version="1.32.*"
+supported_version="1.34.*"
 path="C:/Users/sebastian/Documents/Paradox Interactive/Europa Universalis IV/mod/SwedditUniversalisAnbennar"
 remote_file_id="2663071760"
