@@ -1,0 +1,5 @@
+l_english:
+  encourage_development_title: "Encourage Development"
+  encourage_development_desc: "This decision will change the state edict for all states in your country to Encourage Development."
+  remove_all_edicts_title: "Remove all State Edicts"
+  remove_all_edicts_desc: "This decision will remove all state edicts from your provinces."

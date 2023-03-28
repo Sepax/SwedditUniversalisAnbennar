@@ -1,0 +1,40 @@
+encourage_development = {
+    potential = {
+        ai = no
+    }
+    
+    allow = {
+        always = yes
+    }
+    
+    effect = {
+        every_owned_province = {
+            set_state_edict = encourage_development
+        }
+    }
+    
+    ai_will_do = {
+        factor = 0
+    }
+}
+
+remove_all_edicts = {
+    potential = {
+        ai = no
+    }
+    
+    allow = {
+        always = yes
+    }
+    
+    effect = {
+        every_owned_province = {
+            remove_state_edict = yes
+        }
+    }
+    
+    ai_will_do = {
+        factor = 0
+    }
+}
+
